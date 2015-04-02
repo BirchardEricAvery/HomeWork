@@ -1,4 +1,4 @@
 
 
 alert("Hello World!");
-alert("This is in the Java script file.");
+alert("\xA9 This is in the Java script file.");
