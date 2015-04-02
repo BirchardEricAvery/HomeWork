@@ -7,11 +7,16 @@ Instructor: Dan Williams
  */
 
 //numbers, strings, boolean--skipped, too basic
+//declare before defining
 
-var yearBorn = 1955;  //var string
+var yearBorn = 1969;    //var string, declaring variables
+var age;                //age variable declared
+age = 46                //defining age
 
-alert("testing alert for yearBorn" + " " + yearBorn);
+//or var yearBorn = 46
 
-console.log("yearBorn variable" + " " + yearBorn); //log yearBorn variable
+alert("testing alert for yearBorn" + " " + yearBorn + " " + age);
+
+console.log("yearBorn variable" + " " + yearBorn + " " + age); //log yearBorn variable
 
 
