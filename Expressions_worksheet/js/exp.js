@@ -4,7 +4,7 @@
  Course:        SDI
  Date:          3, April 2015
  Instructor:    Dan Williams
-
+*/
 
 
 //Calculate how old Sparky the pit bull is in dog years.
@@ -60,7 +60,6 @@ var leftOvers = slicesPizza - leftOvers;                                //Left O
 alert("Sparky gets" + " " + leftOvers + " " + "slices of pizza");       //What Sparky got
 console.log("Sparky got" + " " + leftOvers + " " + "slices of pizza");  //Logging what sparky got
 
-    */
 
 //Groceries
 
