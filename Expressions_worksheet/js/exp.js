@@ -74,7 +74,9 @@ var cost1 = prompt("Total cost in week 1");             //total cost
 var cost1 = Number(cost1);                              //casting
 var discount1 = cost1 - (cost1 * discount);             //discount
 
+console.log("Subtotal" + " " + "$" + cost1);                //subtotal
 console.log(description1 + " " + "before tax after discount" + " " + "$" +  "$" + discount1);    //before tax after discount
+console.log("You saved 20%" + " " + discount * cost1);      //total savings
 
 var aTax1 = discount1 * tax;                                                                    //after tax calculation
 console.log("aTax1" + " " + aTax1);                                                             //logging tax
@@ -90,7 +92,9 @@ var cost2 = prompt("Total cost in week 2");                 //total cost
 var cost2 = Number(cost2);                                  //casting
 var discount2 = cost2 - (cost2 * discount);                 //discount
 
+console.log("Subtotal" + " " + "$" + cost2);                //subtotal
 console.log(description2 + " " + "before tax after discount" + " " +  "$" + discount2);     //before tax after discount
+console.log("You saved 20%" + " " + discount * cost2);      //total savings
 
 var aTax2 = discount2 * tax;                                                                //after tax calculation
 console.log("aTax2" + " " + aTax2);                                                         //logging tax
@@ -104,7 +108,9 @@ var cost3 = prompt("Total cost in week 3");                 //total cost
 var cost3 = Number(cost3);                                  //casting
 var discount3 = cost3 - (cost3 * discount);                 //discount
 
+console.log("Subtotal" + " " + "$" + cost3);                //subtotal
 console.log(description3 + " " + "before tax after discount" + " " +  "$" + discount3);     //before tax after discount
+console.log("You saved 20%" + " " + discount * cost3);      //total savings
 
 var aTax3 = discount3 * tax;                                                                //after tax calculation
 console.log("aTax3" + " " + aTax3);                                                         //logging tax
@@ -119,7 +125,9 @@ var cost4 = prompt("Total cost in week 4");                 //total cost
 var cost4 = Number(cost4);                                  //casting
 var discount4 = cost4 - (cost4 * discount);                 //discount
 
+console.log("Subtotal" + " " + "$" + cost4);                //subtotal
 console.log(description4 + " " + "before tax after discount" + " " +  "$" + discount4);    //before tax after discount
+console.log("You saved 20%" + " " + discount * cost4);      //total savings
 
 var aTax4 = discount4 * tax;                                                                //after tax calculation
 console.log("aTax4" + " " + aTax4);                                                         //logging tax
@@ -134,7 +142,9 @@ var cost5 = prompt("Total cost in week 5");                     //total cost
 var cost5 = Number(cost5);                                      //casting
 var discount5 = cost5 - (cost5 * discount);                     //discount
 
+console.log("Subtotal" + " " + "$" + cost5);                    //subtotal
 console.log(description5 + " " + "before tax after discount" + " " +  "$" + discount5);     //before tax after discount
+console.log("You saved 20%" + " " + discount * cost5);          //total savings
 
 var aTax5 = discount5 * tax;                                                                //after tax calculation
 console.log("aTax5" + " " + aTax5);                                                         //logging tax
@@ -145,8 +155,48 @@ console.log(description5 + " " + "Cost after tax and discount" + " " +  "$" + aT
 
 //Output for arrays
 
+var groceries = new Array();
 
+groceries[0] = new Array();
+groceries[0][0] = description1;
+groceries[0][1] = "Total cost" + cost1;
+groceries[0][2] = " " + "Before tax after discount" + " " + discount1;
+groceries[0][3] = " " + "Savings" + " " + discount * cost1;
+groceries[0][4] = " " + "Cost after tax and discount" + " " + aTaxFinal1;
 
+groceries[1] = new Array();
+groceries[0][0] = description2;
+groceries[0][1] = "Total cost" + cost2;
+groceries[0][2] = "Before tax after discount" + " " + discount2;
+groceries[0][3] = "Savings" + " " + discount * cost2;
+groceries[0][4] = "Cost after tax and discount" + " " + aTaxFinal2;
+
+groceries[2] = new Array();
+groceries[0][0] = description3;
+groceries[0][1] = "Total cost" + cost3;
+groceries[0][2] = "Before tax after discount" + " " + discount3;
+groceries[0][3] = "Savings" + " " + discount * cost3;
+groceries[0][4] = "Cost after tax and discount" + " " + aTaxFinal3;
+
+groceries[3] = new Array();
+groceries[0][0] = description4;
+groceries[0][1] = "Total cost" + cost4;
+groceries[0][2] = "Before tax after discount" + " " + discount4;
+groceries[0][3] = "Savings" + " " + discount * cost4;
+groceries[0][4] = "Cost after tax and discount" + " " + aTaxFinal4;
+
+groceries[4] = new Array();
+groceries[0][0] = description5;
+groceries[0][1] = "Total cost" + cost5;
+groceries[0][2] = "Before tax after discount" + " " + discount5;
+groceries[0][3] = "Savings" + " " + discount * cost5;
+groceries[0][4] = "Cost after tax and discount" + " " + aTaxFinal5;
+
+console.log(description1 + groceries[0][0] + groceries[1][0] + groceries[2][0] + groceries[3][0] + groceries[4][0] + "\r");
+console.log(description2 + groceries[0][1] + groceries[1][1] + groceries[2][1] + groceries[3][0] + groceries[4][1] + "\r");
+console.log(description3 + groceries[0][2] + groceries[1][2] + groceries[2][2] + groceries[3][2] + groceries[4][2] + "\r");
+console.log(description4 + groceries[0][3] + groceries[1][3] + groceries[2][3] + groceries[3][3] + groceries[4][3] + "\r");
+console.log(description5 + groceries[0][4] + groceries[1][4] + groceries[2][4] + groceries[3][4] + groceries[4][4] + "\r");
 
 
 
