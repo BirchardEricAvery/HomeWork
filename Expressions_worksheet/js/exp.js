@@ -64,31 +64,52 @@ console.log("Sparky got" + " " + leftOvers + " " + "slices of pizza");  //Loggin
 //Groceries
 
 //5 totals of original price into array with description
+var discount = 20;      //20% discount
+var tax = 5;            //5% sales tax
 
-var grocery1 = prompt("Item description week 1");
-var grocery11 = prompt("Total cost in week 1");
-var grocery11 = number(grocery11);
+var grocery1 = prompt("Item description week 1");       //item description
+var grocery11 = prompt("Total cost in week 1");         //total cost
+var grocery11 = number(grocery11);                      //casting
+var discount1;                                          //discount
+var bTax1;                                              //before tax
+var aTax1;                                              //after tax
 
-var grocery2 = prompt("Item description week 2");
-var grocery11 = prompt("Total cost in week 2");
-var grocery22 = number(grocery22);
+var grocery2 = prompt("Item description week 2");       //item description
+var grocery11 = prompt("Total cost in week 2");         //total cost
+var grocery22 = number(grocery22);                      //casting
+var discount2;                                          //discount
+var bTax2;                                              //before tax
+var aTax2;                                              //after tax
 
-var grocery3 = prompt("Item description week 3");
-var grocery11 = prompt("Total cost in week 3");
-var grocery33 = number(grocery33);
+var grocery3 = prompt("Item description week 3");       //item description
+var grocery11 = prompt("Total cost in week 3");         //total cost
+var grocery33 = number(grocery33);                      //casting
+var discount3;                                          //discount
+var bTax3;                                              //before tax
+var aTax3;                                              //after tax
 
-var grocery4 = prompt("Item description week 4");
-var grocery11 = prompt("Total cost in week 4");
-var grocery44 = number(grocery44);
+var grocery4 = prompt("Item description week 4");       //item description
+var grocery11 = prompt("Total cost in week 4");         //total cost
+var grocery44 = number(grocery44);                      //casting
+var discount4;                                          //discount
+var bTax4;                                              //before tax
+var aTax4;                                              //after tax
 
-var grocery5 = prompt("Item description week 5");
-var grocery11 = prompt("Total cost in week 5");
-var grocery55 = number(grocery55);
+var grocery5 = prompt("Item description week 5");       //item description
+var grocery11 = prompt("Total cost in week 5");         //total cost
+var grocery55 = number(grocery55);                      //casting
+var discount5;                                          //discount
+var bTax5;                                              //before tax
+var aTax5;                                              //after tax
 
 
+//Calculations
+
+
+//Output arrays
 
 Array = newArray
-//output
+
 
 //After 20% discount
 //Is now $ before tax
