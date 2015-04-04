@@ -1,8 +1,9 @@
 /*
- Name:       Eric (Avery) Birchard
- Course:     SDI
- Date:       3, April 2015
- Instructor: Dan Williams
+ Name:          Eric (Avery) Birchard
+ Assignment:    Expressions
+ Course:        SDI
+ Date:          3, April 2015
+ Instructor:    Dan Williams
 
 
 
