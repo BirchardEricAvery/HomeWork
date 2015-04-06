@@ -154,7 +154,7 @@ console.log(description5 + " " + "Cost after tax and discount" + " " +  "$" + aT
 
 
 //Output for arrays
-var aGroceries1 = [description1, "Total cost" + " " + "$" + cost1 + "\n", "Before tax after discount" + " " + "$" + discount1 + "\n", "Savings" + " " + "$" + discount * cost1 + "\n", "Cost after tax and discount" + " " + "$" + aTaxFinal1];
+/*var aGroceries1 = [description1, "Total cost" + " " + "$" + cost1 + "\n", "Before tax after discount" + " " + "$" + discount1 + "\n", "Savings" + " " + "$" + discount * cost1 + "\n", "Cost after tax and discount" + " " + "$" + aTaxFinal1];
 console.log(aGroceries1);
 
 var aGroceries2 = [description2, "Total cost" + " " + "$" + cost2 + "\n", "Before tax after discount" + " " + "$" + discount2 + "\n", "Savings" + " " + "$" + discount * cost2 + "\n", "Cost after tax and discount" + " " + "$" + aTaxFinal2];
@@ -168,7 +168,7 @@ console.log(aGroceries4);
 
 var aGroceries5 = [description5, "Total cost" + " " + "$" + cost5 + "\n", "Before tax after discount" + " " + "$" + discount5 + "\n", "Savings" + " " + "$" + discount * cost5 + "\n", "Cost after tax and discount" + " " + "$" + aTaxFinal5];
 console.log(aGroceries5);
-/*
+*/
 
 
 var groceries = new Array();
@@ -181,32 +181,32 @@ groceries[0][3] = " " + "Savings" + " " + discount * cost1;
 groceries[0][4] = " " + "Cost after tax and discount" + " " + aTaxFinal1;
 
 groceries[1] = new Array();
-groceries[0][0] = description2;
-groceries[0][1] = "Total cost" + cost2;
-groceries[0][2] = "Before tax after discount" + " " + discount2;
-groceries[0][3] = "Savings" + " " + discount * cost2;
-groceries[0][4] = "Cost after tax and discount" + " " + aTaxFinal2;
+groceries[1][0] = description2;
+groceries[1][1] = "Total cost" + cost2;
+groceries[1][2] = "Before tax after discount" + " " + discount2;
+groceries[1][3] = "Savings" + " " + discount * cost2;
+groceries[1][4] = "Cost after tax and discount" + " " + aTaxFinal2;
 
 groceries[2] = new Array();
-groceries[0][0] = description3;
-groceries[0][1] = "Total cost" + cost3;
-groceries[0][2] = "Before tax after discount" + " " + discount3;
-groceries[0][3] = "Savings" + " " + discount * cost3;
-groceries[0][4] = "Cost after tax and discount" + " " + aTaxFinal3;
+groceries[2][0] = description3;
+groceries[2][1] = "Total cost" + cost3;
+groceries[2][2] = "Before tax after discount" + " " + discount3;
+groceries[2][3] = "Savings" + " " + discount * cost3;
+groceries[2][4] = "Cost after tax and discount" + " " + aTaxFinal3;
 
 groceries[3] = new Array();
-groceries[0][0] = description4;
-groceries[0][1] = "Total cost" + cost4;
-groceries[0][2] = "Before tax after discount" + " " + discount4;
-groceries[0][3] = "Savings" + " " + discount * cost4;
-groceries[0][4] = "Cost after tax and discount" + " " + aTaxFinal4;
+groceries[3][0] = description4;
+groceries[3][1] = "Total cost" + cost4;
+groceries[3][2] = "Before tax after discount" + " " + discount4;
+groceries[3][3] = "Savings" + " " + discount * cost4;
+groceries[3][4] = "Cost after tax and discount" + " " + aTaxFinal4;
 
 groceries[4] = new Array();
-groceries[0][0] = description5;
-groceries[0][1] = "Total cost" + cost5;
-groceries[0][2] = "Before tax after discount" + " " + discount5;
-groceries[0][3] = "Savings" + " " + discount * cost5;
-groceries[0][4] = "Cost after tax and discount" + " " + aTaxFinal5;
+groceries[4][0] = description5;
+groceries[4][1] = "Total cost" + cost5;
+groceries[4][2] = "Before tax after discount" + " " + discount5;
+groceries[4][3] = "Savings" + " " + discount * cost5;
+groceries[4][4] = "Cost after tax and discount" + " " + aTaxFinal5;
 
 console.log(description1 + groceries[0][0] + groceries[1][0] + groceries[2][0] + groceries[3][0] + groceries[4][0] + "\r");
 console.log(description2 + groceries[0][1] + groceries[1][1] + groceries[2][1] + groceries[3][0] + groceries[4][1] + "\r");
@@ -214,6 +214,6 @@ console.log(description3 + groceries[0][2] + groceries[1][2] + groceries[2][2] +
 console.log(description4 + groceries[0][3] + groceries[1][3] + groceries[2][3] + groceries[3][3] + groceries[4][3] + "\r");
 console.log(description5 + groceries[0][4] + groceries[1][4] + groceries[2][4] + groceries[3][4] + groceries[4][4] + "\r");
 
-*/
+
 
 
